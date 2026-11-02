@@ -1,0 +1,123 @@
+{
+  "source": "assets/spritesheet.png",
+  "review_size": "native 192x208 and labeled zoom",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Face frontal, chin raised and pupils above neutral",
+      "evidence": "Raised chin and nose expose underside of face; glasses pitch upward with head.",
+      "verdict": "pass"
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Slight right yaw with raised chin",
+      "evidence": "Nose and eyes shift right while elevated chin and pupils establish up.",
+      "verdict": "pass"
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Head turns right and tilts upward",
+      "evidence": "Rightward nose and glasses offset with lifted chin establish both axes.",
+      "verdict": "pass"
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Strong right yaw, small upward pitch",
+      "evidence": "Nose extends right, ear asymmetry; chin remains slightly raised.",
+      "verdict": "pass"
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Head and gaze face screen-right",
+      "evidence": "Nose tip well right of head center; horizontal eye line.",
+      "verdict": "pass"
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Right yaw with slight downward pitch",
+      "evidence": "Nose stays right; chin lowers toward collar and eyes below neutral. Subtle vertical axis verified blind.",
+      "verdict": "pass"
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Head bows while facing right",
+      "evidence": "Nose projects right; eyelids and chin angle toward bottom.",
+      "verdict": "pass"
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Mostly bowed head, residual right yaw",
+      "evidence": "Lowered eyes/chin establish down; nose offset and ear asymmetry establish slight right.",
+      "verdict": "pass"
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Frontal head bows toward chest",
+      "evidence": "Nose, eyes and chin downward; visible crown, face remains attached and readable.",
+      "verdict": "pass"
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Bowed head with slight left yaw",
+      "evidence": "Lowered chin/eyes establish down; nose and ear asymmetry establish slight left.",
+      "verdict": "pass"
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Bowed head rotates screen-left",
+      "evidence": "Nose lies left and chin points toward collar.",
+      "verdict": "pass"
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Left yaw with slight downward pitch",
+      "evidence": "Nose points left; chin lower than neutral and eyes below horizontal.",
+      "verdict": "pass"
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Head and gaze face screen-left",
+      "evidence": "Nose tip well left of head center, appropriate ear occlusion.",
+      "verdict": "pass"
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Head turned left, chin slightly lifted",
+      "evidence": "Nose left; lifted eye/chin pitch establishes up.",
+      "verdict": "pass"
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Head left and upward",
+      "evidence": "Nose left, chin elevated and pupils above neutral.",
+      "verdict": "pass"
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Mostly up with slight left yaw",
+      "evidence": "Raised chin and eyes; residual nose/ear asymmetry establishes left.",
+      "verdict": "pass"
+    }
+  ],
+  "continuity_review": {
+    "157.5->180": "Metric outlier examined: small right yaw resolves to frontal bow. Torso and feet fixed, center difference 1.12px, no conspicuous snap, scale change or reversal.",
+    "337.5->000": "Residual left yaw resolves to frontal upward gaze with anchored torso."
+  },
+  "blind_review": "Three isolated reviewers and strict majority. All axes matched, no warnings."
+}

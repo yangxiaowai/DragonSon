@@ -1,0 +1,255 @@
+{
+  "project": "DragonSon",
+  "character_name": "龙哥",
+  "created_date": "2026-11-02",
+  "description": "戴圆眼镜、修长脸型和深色连帽外套的动态伙伴素材。",
+  "sprite": {
+    "path": "assets/spritesheet.png",
+    "version": 2,
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review",
+      "look-first-half",
+      "look-second-half"
+    ],
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "required_frames": 73,
+    "transparent_unused_cells": 15,
+    "look_order_degrees": [
+      0,
+      22.5,
+      45,
+      67.5,
+      90,
+      112.5,
+      135,
+      157.5,
+      180,
+      202.5,
+      225,
+      247.5,
+      270,
+      292.5,
+      315,
+      337.5
+    ]
+  },
+  "verification": {
+    "production_atlas_validation": true,
+    "production_quality_validation": true,
+    "blind_direction_validation": true,
+    "pets_preflight": true,
+    "scope": "Archived production results. Repository verifier checks integrity and grid only.",
+    "reviewed_warnings": [
+      "157.5 to 180 local pixel-difference outlier; no visible snap on review.",
+      "Jump endpoint crown height about 7 pixels below idle; landing baseline delta 0."
+    ]
+  },
+  "files": {
+    ".gitattributes": {
+      "bytes": 51,
+      "sha256": "defa99f91bbc274050dfa9387c5c17b2c8e891e4c7141cd447de6cb2206a00dc"
+    },
+    ".gitignore": {
+      "bytes": 72,
+      "sha256": "f873a16fc0c81d07e095f09d2b3ffffa04a32de69c07dbf90165db09d2f7b426"
+    },
+    "README.md": {
+      "bytes": 2653,
+      "sha256": "333fec020d290eb159e4743f5656a1ad2efaed9b766bcac2ac6647286d0ae3a6"
+    },
+    "assets/contact-sheet.png": {
+      "bytes": 483678,
+      "sha256": "213c0510533c1daa0c4502e0df2147565858ab6ea0309c48f64268d82fa8990d"
+    },
+    "assets/directions.png": {
+      "bytes": 554109,
+      "sha256": "03cd22d34cefa1470fc847655c74cb76340e8f490ff0b63c2f58cea1b145f205"
+    },
+    "assets/portrait.png": {
+      "bytes": 24779,
+      "sha256": "426e48d306e8e1aa52fe3405486f6f0c0a741f89f81f6efc7836865f80e52d76"
+    },
+    "assets/spritesheet.png": {
+      "bytes": 1824007,
+      "sha256": "ee9b552548cf707e3e23bfcf0fdb688eeffc08a47f99c1aa5f7fdc2b7548f707"
+    },
+    "docs/production.md": {
+      "bytes": 3674,
+      "sha256": "1582e97fc1038e8186f964a4daab956efdd2fd676230832f9e96985ff43e241a"
+    },
+    "previews/all-states.gif": {
+      "bytes": 675567,
+      "sha256": "e772cf75d29c7ff4d79d24d63eef0f7e0c558327aac794fd3f14775fd2cfa55d"
+    },
+    "previews/all-states.mp4": {
+      "bytes": 83575,
+      "sha256": "fe2ab95a8c83e2f40a339cb9497b994b38c63d69b2ec7c9e26b3fd63cf2d1253"
+    },
+    "previews/idle-jump-idle.gif": {
+      "bytes": 185004,
+      "sha256": "4101189dbbeb818211a9f6faf77e09940a961db64f55c03c0b5f73fbfca465f0"
+    },
+    "previews/look-loop.gif": {
+      "bytes": 194248,
+      "sha256": "69d29d21c5a2446e0c2d43932b788ad9961a0561169cc0f2c68c261d4665f8ed"
+    },
+    "previews/motion-stills.png": {
+      "bytes": 204405,
+      "sha256": "47d8474724ea63ba77b6e060f21dccc45842fed7f8bf02fedb558a631ed4d1c5"
+    },
+    "previews/states/failed.gif": {
+      "bytes": 50441,
+      "sha256": "20f136f867a55b679bb41b59e460207ff25168ceaa26ba888728908f7ae5d685"
+    },
+    "previews/states/idle.gif": {
+      "bytes": 39704,
+      "sha256": "a885a98f70a55a6d7b2e8dcb700e76b52d64183f904ec94413fcc75a0c2862f3"
+    },
+    "previews/states/jumping.gif": {
+      "bytes": 32180,
+      "sha256": "e7aa388a68acf4db3a8541acd43dc312bdfc9e9bc664f941ff50a9f569341d56"
+    },
+    "previews/states/review.gif": {
+      "bytes": 40446,
+      "sha256": "6864cf3a47f57168c0b3d453e417244b40ebf5aed53caf0f7e805f361b06a6ae"
+    },
+    "previews/states/running-left.gif": {
+      "bytes": 55449,
+      "sha256": "111fc8e967bc977ebd161d0f67dfff9ccf0b115b51e4b00f2a87eaac5c832e51"
+    },
+    "previews/states/running-right.gif": {
+      "bytes": 56236,
+      "sha256": "2aebe8a23c6433ba535754ea6eda1fc207ebceecf65a82b5d08b6476648742b7"
+    },
+    "previews/states/running.gif": {
+      "bytes": 39481,
+      "sha256": "476c89ef0967a420a0bc2adaa15ebb4c0a636188bfabc9da9efb97c230df6574"
+    },
+    "previews/states/waiting.gif": {
+      "bytes": 40054,
+      "sha256": "1d32561863b4b9379c6fc2bbe309f4161d1c5e7d1e17fe189718557262f3586b"
+    },
+    "previews/states/waving.gif": {
+      "bytes": 26995,
+      "sha256": "3c1cbf5ed9678645ab6431fe77cbe8c5e57ac7e4ffb8e03802a73a572fd8c48c"
+    },
+    "requirements.txt": {
+      "bytes": 15,
+      "sha256": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35"
+    },
+    "source/canonical-base.png": {
+      "bytes": 1696918,
+      "sha256": "954e80cdc39807b2ca4666dc40317d19bfdec6918688b465217c7508becb913e"
+    },
+    "source/strips/failed.png": {
+      "bytes": 1886158,
+      "sha256": "2ef6ab9a590bbb016ce700123bfcf9b25d71b10fff5a549473699d50fd922108"
+    },
+    "source/strips/idle.png": {
+      "bytes": 1739470,
+      "sha256": "3ee63a7443b08cfa8a6a5c2b412cadb87af6889fc297e3a45e3d0e629683d9b9"
+    },
+    "source/strips/jumping.png": {
+      "bytes": 1659763,
+      "sha256": "b0c74113a6fb49687cba534c83bf43fc6bb9f8a133f198392025fac41160a67b"
+    },
+    "source/strips/look-cardinals.png": {
+      "bytes": 1634523,
+      "sha256": "d56a1a24d0c56178c948d6369c41085b20fd1dcce54c99a602b42e37c26e9c64"
+    },
+    "source/strips/look-row-10.png": {
+      "bytes": 1861183,
+      "sha256": "8d79fbda20931f7b63f865422d5c5bef3a44391ab918e38c43a426ea9c1b5db5"
+    },
+    "source/strips/look-row-9.png": {
+      "bytes": 1909519,
+      "sha256": "d90c6e4478631a0944500b34ecc5ba928bea86b3e2c69bbb44ebc792f2bb9a11"
+    },
+    "source/strips/review.png": {
+      "bytes": 1768502,
+      "sha256": "ee789c849f363264a350e5dc9bacf3caf82bc261d4f145177e926d4b43bc281b"
+    },
+    "source/strips/running-left.png": {
+      "bytes": 1740388,
+      "sha256": "837aa553a0a0c18947d14c64d1423f56b739d286f9af84585aee69ffa6594dd4"
+    },
+    "source/strips/running-right.png": {
+      "bytes": 1802025,
+      "sha256": "b8821a44b2dae7306c3c8462e2ba9c83e43b18d6dd8d6960b49d9dfcf049f999"
+    },
+    "source/strips/running.png": {
+      "bytes": 1774010,
+      "sha256": "1bf5b8eacec7ca4dbaac8e84e37c55fe3491cfb0caa119ce587ffc15e3a23ba9"
+    },
+    "source/strips/waiting.png": {
+      "bytes": 1724145,
+      "sha256": "504e04fd87fc78bbfe07ea12eb0211b9f358705a58e6619d340b1558bc31887e"
+    },
+    "source/strips/waving.png": {
+      "bytes": 1553572,
+      "sha256": "40f85b5d54eab0c4eba1f38375295125e4c11568fc1fcea72b329d87d13c0fb5"
+    },
+    "tools/render_previews.py": {
+      "bytes": 7230,
+      "sha256": "3b010075ae417d6824c77ce769face0a73415f35a1415cf0c3b75412bd69ab5c"
+    },
+    "tools/verify_assets.py": {
+      "bytes": 2153,
+      "sha256": "01cc8accb2484970c5126d0db015d8486ef2067160e4b21b8527040f4f6eee11"
+    },
+    "validation/atlas.json": {
+      "bytes": 18164,
+      "sha256": "a599babac182c04d0f5f0e907bfef235eb30fc4d69e37a26774046cd8703b01b"
+    },
+    "validation/blind-validation.json": {
+      "bytes": 5366,
+      "sha256": "4ba885b2eec0ffa1f9f6951cee4b2b43231a451b706c23cd74b8062cc751a5e9"
+    },
+    "validation/continuity.json": {
+      "bytes": 3419,
+      "sha256": "3f2f370d4264905373bf57d3519c298232e89a117813d57412bffabf510e1aac"
+    },
+    "validation/direction-semantics.json": {
+      "bytes": 4263,
+      "sha256": "b4ba41bda34e5c68ac4f0942b858bfb45b45c850e477523318db1e118c937965"
+    },
+    "validation/frame-review.json": {
+      "bytes": 21862,
+      "sha256": "5e2dfa952dd62c14fdd5f7186b0b805657007d1ed839d39af0824ed9e935c1d5"
+    },
+    "validation/independent-visual-review.json": {
+      "bytes": 3958,
+      "sha256": "97fe3fdebc46a336696350fd2090077da167e1052639d87fb8d54a1ca7c54934"
+    },
+    "validation/quality.json": {
+      "bytes": 1022,
+      "sha256": "025518f4b6776aa6266e0c06c0de3318ca1aeba20d71e18cf11f13058c821c34"
+    }
+  }
+}

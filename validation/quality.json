@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "atlas": "assets/spritesheet.png",
+  "encoded_bytes": 1824007,
+  "sha256": "ee9b552548cf707e3e23bfcf0fdb688eeffc08a47f99c1aa5f7fdc2b7548f707",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      202,
+      170,
+      199,
+      202
+    ],
+    "airborne_lift_pixels": 32,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      94.5,
+      94.5,
+      94.5,
+      94.5,
+      95.0,
+      94.5,
+      94.5,
+      94.5,
+      94.5,
+      94.5,
+      94.5,
+      94.0
+    ],
+    "look_widths": [
+      64,
+      64,
+      64,
+      64,
+      63,
+      63,
+      63,
+      63,
+      64,
+      63,
+      63,
+      63,
+      63,
+      63,
+      63,
+      62
+    ],
+    "maximum_center_drift_pixels": 2.0,
+    "maximum_width_ratio": 1.032258064516129
+  },
+  "errors": [],
+  "warnings": [
+    "157.5->180 diff is a local outlier (1477 pixels vs neighbor average 864)"
+  ]
+}
